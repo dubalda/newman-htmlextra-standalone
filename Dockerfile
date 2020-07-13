@@ -26,5 +26,5 @@ RUN cat /etc/nginx/conf.d/default.conf && \
     wget -P /usr/share/nginx/html/newman-html-extra https://cdn.datatables.net/v/bs4/dt-1.10.18/datatables.min.js && \
     wget -P /usr/share/nginx/html/newman-html-extra https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js && \
     wget -P /usr/share/nginx/html/newman-html-extra https://cdnjs.cloudflare.com/ajax/libs/remarkable/1.7.1/remarkable.min.js && \
-    wget -P /usr/share/nginx/html/newman-html-extra https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.13.1/highlight.min.js && \
+    wget -P /usr/share/nginx/html/newman-html-extra https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js && \
     ls -lh /usr/share/nginx/html
